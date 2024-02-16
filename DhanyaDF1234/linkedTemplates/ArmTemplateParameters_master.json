@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "DhanyaDF1234"
+		},
+		"LS_Blobsa_connectionString": {
+			"value": ""
+		},
+		"LS_AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://dhanya134.vault.azure.net/"
+		},
+		"LS_AzureSqlDatabase1_properties_typeProperties_connectionString_secretName": {
+			"value": "SQLConnectionstring"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
